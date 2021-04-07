@@ -1,0 +1,67 @@
+/* mr first css*/
+
+body {
+     background-color:#ffffff;
+     }
+header   {
+     text-align: right;
+     text-size: lighter;
+     background-color: rgb(216, 114, 211); 
+     height: auto;
+     width: auto;
+     }
+header{
+	background-color: red;
+	list-style-type: none;
+	padding:0;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content:flex-end
+}
+a{
+flex-basis: 10%;
+}
+img  {
+     float: right;
+     }
+
+ h1 {
+     text-align: center;
+     FONT-FAMILY: serif;
+     }
+strong{
+     text-align: center;
+     }
+ footer {
+     background-color: rgb(255, 255, 255);
+       }
+ button {
+      height: 50px;
+      width: 100px;
+      font-text: bold;
+      }
+ main {
+      text-align: right;
+      }
+a:link{
+    font-weight: bold;
+    text-decoration: none;
+    color: #A65523;
+}
+a:visited{
+    color:green;
+    font-size: 2rem;
+}
+a:hover{
+    color: orange;
+    text-decoration: underline;
+    background-color: white;
+}
+a.havard:link{
+  color:green;
+}
+
+ol{
+	list-style-type: none;
+     text-align: center;
+}
